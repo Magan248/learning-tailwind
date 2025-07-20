@@ -1,0 +1,15 @@
+@import "tailwindcss";
+ @config "./tailwind.config.js";
+.section-container {
+    @apply px-6 md:px-12 max-w-[1440px] mx-auto w-full;
+}
+@theme {
+  --breakpoint-mobile: 30rem;
+}
+/* @layer base {
+  * {
+    outline: 1px solid red;
+    margin:25px;
+  }
+} */
+ 

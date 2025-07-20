@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind Test</title>
+        <link href="./output.css" rel="stylesheet">
+    </head>
+    <body class="bg-brand">
+            <header class="section-container flex items-center justify-between fixed left-[50%] -translate-x-[50%] bg-black/70 backdrop-blur-sm">
+                <a href="#"><img class="w-24 md:w-32" src="images/logo.svg" alt="company logo"></a>
+                <nav class="hidden md:block space-x-6 lg:space-x-10 lg:text-2xl font-bold text-white">
+                    <a href="#hero">Home</a>
+                    <a href="#how it works">How it works?</a>
+                    <a href="#about">About</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+                <button class="text-3xl md:hidden">☰</button>
+            </header>
+            <section id="hero" class="bg-[url(/images/background-road.png)] bg-cover md:bg-contain bg-no-repeat bg-right section-container">
+                <div class="flex flex-col md:flex-row md:items-center justify-between pt-36 pb-10 max-w-6xl mx-auto">   
+                    <h1 class="text-3xl md:text-6xl font-bold leading-9 md:leading-[72px] text-white">THE <br> SHOE <br> COMPANY</h1>
+                    <div>
+                        <img class="max-w-xl w-full" src="/images/hero-image.svg" alt="whit shoe image">
+                    </div>    
+                </div>
+            </section>
+
+            <section id="how it works" class="max-w-[1440px] mx-auto w-full pt-24 pb-32">
+                <h2 class="text-sm mobile:text-xl sm:text-3xl font-bold max-w-48 mobile:max-w-md mb-20 mx-auto">Have they finally made the perfect workout shoe?</h2>
+                <div class="max-w-60 mobile:max-w-96 md:max-w-xl pt-60 mt-12 lg:pt-0 relative mx-auto">
+                    <img class="max-w-60 mobile:max-w-96 md:max-w-xl rotate-25 mobile:rotate-15 md:rotate-0" src="images/how-it-works-image 1.svg" alt="shoe">
+                    <div class="w-36 sm:w-52 absolute top-10 sm:top-0 md:top-30 lg:-top-10 sm:-translate-x-16 lg:-translate-x-48">
+                        <h3 class="text-xl sm:text font-bold">THE HEEL</h3>
+                        <p class="text-xs sm:text-lg">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+                        <img class="-ml-4 mobile:ml-0 lg:ml-auto md:max-w-40 rotate-70 mobile:rotate-60 lg:rotate-0 "src="images/arrow-1.svg" alt="arrow for representing features">
+                    </div>
+                    <div class="w-16 mobile:w-32 absolute top-20 mobile:top-6 sm:-top-6 lg:top-6 left-44 mobile:left-56 sm:left-56 md:left-80 lg:left-140">
+                        <img class="max-w-20 mobile:max-w-32 md:max-w-40 -ml-6 mobile:ml-0 lg:-ml-48 translate-y-40 mobile:translate-y-48 sm:translate-y-60 md:translate-y-64 lg:translate-y-0 rotate-[130deg] lg:rotate-0" src="images/arrow-2.svg" alt="arrow for representing features">
+                        <h3 class="text-xl sm:text font-bold lg:-mt-24 -ml-16">THE FRONT</h3>
+                        <p class="text-xs sm:text-lg -pl-80 -ml-16">The front is comfortable and adjusts well to the shape of your foot.</p>
+                    </div>
+                     <div class="max-w-24 mobile:max-w-52 absolute top-96 mobile:top-116 sm:top-112 md:top-144 lg:top-88 -mb-20 sm:ml-0 md:ml-16">
+                         <img class="-mb-12 mobile:-mb-6 sm:-mb-10 ml-12 sm:ml-12 max-w-24 mobile:max-w-32 sm:max-w-40"src="images/arrow-3.svg" alt="arrow for representing features">
+                         <h3 class="text-xl sm:text-2xl font-bold">TRACTION</h3>
+                         <p class="text-xs sm:text-lg">The shoe has good traction and doesn't slip easily.</p>
+                    </div>
+                </div>
+            </section>
+    </body>
+</html
