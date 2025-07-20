@@ -7,7 +7,7 @@
         <link href="./output.css" rel="stylesheet">
     </head>
     <body class="bg-brand">
-            <header class="section-container flex items-center justify-between fixed left-[50%] -translate-x-[50%] bg-black/70 backdrop-blur-sm">
+            <header class="section-container z-10 flex items-center justify-between fixed left-[50%] -translate-x-[50%] bg-black/60 backdrop-blur-sm">
                 <a href="#"><img class="w-24 md:w-32" src="images/logo.svg" alt="company logo"></a>
                 <nav class="hidden md:block space-x-6 lg:space-x-10 lg:text-2xl font-bold text-white">
                     <a href="#hero">Home</a>
@@ -20,15 +20,15 @@
             </header>
             <section id="hero" class="bg-[url(/images/background-road.png)] bg-cover md:bg-contain bg-no-repeat bg-right section-container">
                 <div class="flex flex-col md:flex-row md:items-center justify-between pt-36 pb-10 max-w-6xl mx-auto">   
-                    <h1 class="text-3xl md:text-6xl font-bold leading-9 md:leading-[72px] text-white">THE <br> SHOE <br> COMPANY</h1>
+                    <h1 class="text-4xl mobile:text-5xl md:text-6xl font-bold leading-[60px] md:leading-[72px] text-white">THE <br> SHOE <br> COMPANY</h1>
                     <div>
                         <img class="max-w-xl w-full" src="/images/hero-image.svg" alt="whit shoe image">
                     </div>    
                 </div>
             </section>
 
-            <section id="how it works" class="max-w-[1440px] mx-auto w-full pt-24 pb-32">
-                <h2 class="text-sm mobile:text-xl sm:text-3xl font-bold max-w-48 mobile:max-w-md mb-20 mx-auto">Have they finally made the perfect workout shoe?</h2>
+            <section id="how it works" class="section-container pt-24 pb-32">
+                <h2 class="text-2xl mobile:text-3xl sm:text-4xl md:text-5xl font-bold max-w-96 mobile:max-w-md md:max-w-[600px]  mb-20 mx-auto">Have they finally made the perfect workout shoe?</h2>
                 <div class="max-w-60 mobile:max-w-96 md:max-w-xl pt-60 mt-12 lg:pt-0 relative mx-auto">
                     <img class="max-w-60 mobile:max-w-96 md:max-w-xl rotate-25 mobile:rotate-15 md:rotate-0" src="images/how-it-works-image 1.svg" alt="shoe">
                     <div class="w-36 sm:w-52 absolute top-10 sm:top-0 md:top-30 lg:-top-10 sm:-translate-x-16 lg:-translate-x-48">
@@ -47,6 +47,31 @@
                          <p class="text-xs sm:text-lg">The shoe has good traction and doesn't slip easily.</p>
                     </div>
                 </div>
+            </section>
+            <section id="about" class="section-container mt-16 flex md:space-x-12 items-center flex-col md:flex-row ">
+                <h2 class="text-5xl font-bold md:hidden p-3">About Us!</h2>
+                <div class="bg-[url('./images/about-us-bg.svg')] bg-no-repeat md:w-full self-center mx-auto">
+                    <img src="./images/about-shoe-company .svg" alt="legs with shoe">
+                </div>
+                <div class="space-y-8 max-w-xl mx-auto md:w-full py-16 px-6">
+                    <h2 class="text-6xl font-bold hidden md:block p-3>">About Us!</h2>
+                    <p>
+                        For each one of those shoe sweethearts out there, THE SHOE COMPANY offer the one-stop goal to pick the correct match of footwear.
+                    </p>
+                    <p>
+                        Gone are the days when you needed to go from store to store to locate the correct style and size for yourself.
+                    </p>
+                    <p>
+                        At THE SHOE COMPANY,  you can locate a vast accumulation of dashing footwear in all sizes and styles, all inside a couple of snaps.
+                    </p>
+                    <p>
+                        Simple right? Not just we are here to spare your time, we are putting forth you the most dazzling footwear alternatives from all the 
+                        first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. At ‘Organization Name’, we offer men, ladies, and child’s shoes perfect for any and each event.
+                    </p>
+                </div>
+            </section>
+            <section id="testimonial">
+
             </section>
     </body>
 </html
