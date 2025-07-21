@@ -6,8 +6,10 @@ module.exports = {
       colors: {
         brand: '#7f1d1d',
       },
+      backgroundImage: {
+        'testimonial-section': "url('/images/testimonial-bg.svg')",
+      },
     },
   },
   plugins: [],
 }
-

@@ -1,7 +1,7 @@
 @import "tailwindcss";
  @config "./tailwind.config.js";
 .section-container {
-    @apply px-6 md:px-12 max-w-[1440px] mx-auto w-full;
+    @apply  md:px-12 max-w-[1440px] mx-auto w-full scroll-mt-24;
 }
 @theme {
   --breakpoint-mobile: 30rem;
