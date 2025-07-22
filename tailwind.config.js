@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         'testimonial-section': "url('/images/testimonial-bg.svg')",
       },
+      
     },
   },
   plugins: [],
