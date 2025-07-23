@@ -8,6 +8,8 @@ const navLinks = document.querySelectorAll('nav a');
 
 hamburgerIcon.addEventListener('click', (e) => {
     e.stopPropagation();
+    hamburgerIcon.classList.toggle('active');
+    header.classList.toggle('open-menu');
     menuIcon.classList.toggle('nav-menu-hamburger');
 });
 
